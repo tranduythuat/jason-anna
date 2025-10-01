@@ -1,0 +1,29 @@
+{
+    "siteTitle": "Thiệp Cưới",
+    "menu": {
+      "home": "Trang chủ",
+      "ourStory": "Chuyện tình",
+      "faq": "Câu hỏi",
+      "travel": "Hướng dẫn đi lại"
+    },
+    "pages": {
+      "home": {
+        "title": "Chào mừng",
+        "content": "Đây là trang chủ thiệp cưới."
+      },
+      "ourStory": {
+        "title": "Chuyện tình",
+        "content": "Câu chuyện tình yêu và hành trình của chúng tôi."
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "content": "Một số câu hỏi phổ biến."
+      },
+      "travel": {
+        "title": "Hướng dẫn đi lại",
+        "content": "Thông tin cho khách mời từ xa."
+      }
+    },
+    "footerText": "© 2025 Thiệp Cưới"
+  }
+  
