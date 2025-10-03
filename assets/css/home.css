@@ -1,8 +1,19 @@
-
+.divier-icon {
+    width: 12px;
+    height: 12px;
+    margin: 30px 0;
+}
 
 .home-contaier {
-    width: 100%;
+    width: 100vw;
     /* z-index: 0; */
+}
+
+.home-contaier h2,
+.home-contaier h3,
+.home-contaier .location {
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 /* <=========== hero section ============> */
@@ -34,7 +45,7 @@
 
 /* <=============== timeline section ==================> */
 .wedding-timeline {
-    width: 100%;
+    width: 100vw;
     display: flex;
     max-height: 807px;
 }
@@ -54,16 +65,11 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 150px 30px 150px 150px;
-}
-
-.wedding-timeline .timeline-content .divier-icon {
-    width: 12px;
-    height: 12px;
+    padding: 150px 30px 150px 120px;
 }
 
 .wedding-timeline .timeline-content h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 
@@ -93,7 +99,7 @@
 }
 /* <================= Tea Ceremony Section =================> */
 .tea-ceremony {
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(rgba(38, 38, 38, 0.711), rgba(46, 46, 46, 0.612)), url('../../assets/images/home/bg_142.png');
     background-position: center;
     background-size: cover;
@@ -117,8 +123,13 @@
 .tea-ceremony-container .tea-ceremony-images {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.tea-ceremony-container .tea-ceremony-images img {
+    padding: 5px;
+    width: 90%;
 }
 
 .tea-ceremony-container .tea-ceremony-content h2 {
@@ -130,11 +141,6 @@
 .tea-ceremony-container .tea-ceremony-content p {
     font-size: 1.625rem;
     margin-bottom: 30px;
-}
-
-.tea-ceremony-container .tea-ceremony-content .divier-icon {
-    width: 12px;
-    height: 12px;
 }
 
 .tea-ceremony-container .tea-ceremony-content .event-details h3 {
@@ -155,7 +161,7 @@
 .location-box img {
     position: absolute;
     left: 16px;
-    top: 11px;
+    top: 6px;
 }
 
 .location-box .location {
@@ -180,7 +186,7 @@
 
 /* <================ Traditional Wedding Section ===============>*/
 .traditional-wedding {
-    width: 100%;
+    width: 100vw;
     display: flex;
     padding: 90px;
 }
@@ -195,10 +201,12 @@
 .traditional-wedding .wedding-images {
     flex-wrap: wrap;
     padding: 70px;
+    height: 80%;
 }
 
 .traditional-wedding .wedding-images .img-box {
     width: 50%;
+    height: 222px;
     padding: 5px;
 }
 
@@ -210,4 +218,146 @@
 
 .traditional-wedding .wedding-content {
     flex-direction: column;
+    padding: 20px;
+}
+
+.traditional-wedding .wedding-content h2 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.traditional-wedding .wedding-content p {
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+}
+
+.traditional-wedding .wedding-content h3 {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.traditional-wedding .location {
+    padding: 3px 18px;
+}
+
+/* <===================== Cruise Reception Section ===========> */
+.cruise-reception {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.cruise-reception h2 {
+    font-size: var(--font-size-h2);
+    padding-bottom: 20px;
+}
+
+.cruise-reception h3 {
+    font-size: var(--font-size-h3);
+    padding-bottom: 20px;
+}
+
+.cruise-reception h4 {
+    font-size: var(--font-size-h4);
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.cruise-reception p {
+    font-size: var(--font-size-p);
+}
+
+.cruise-reception .cruise-details {
+    padding: 110px;
+    display: flex;
+}
+
+.cruise-reception .cruise-details div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cruise-reception .cruise-details .date-time h3 {
+    margin-bottom: 30px;
+}
+
+.cruise-reception .cruise-details .date-time p {
+    margin: 5px 0;
+}
+
+.cruise-reception .cruise-details .date-time .embarkation {
+    font-size: 1.2rem;
+}
+
+.cruise-reception .cruise-details .date-time .location-box{
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+
+.cruise-reception .cruise-details .date-time .location-box .location {
+    padding: 4px 10px 4px;
+}
+.cruise-reception .cruise-details .dresscode {
+    padding: 0 25px;
+}
+
+.cruise-reception .cruise-details .dresscode p {
+    font-size: 1.2rem;
+    letter-spacing: 1.2;
+}
+
+.cruise-reception .cruise-details .dresscode .dress-colors {
+    width: 100%;
+}
+
+.cruise-reception .cruise-details .dresscode .dress-colors.second {
+    margin-top: 80px;
+}
+
+.cruise-reception .cruise-details .dresscode .dress-colors .color-palette {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.cruise-reception .cruise-details .dresscode .dress-colors .color-palette .color-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* <=================== agenda section ===================> */
+.agenda {
+    background-image: linear-gradient(rgba(46, 41, 35, 0.678), rgba(52, 33, 12, 0.324)), url('../images/home/DN_00750.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.agenda h2 {
+    font-size: var(--font-size-h2);
+}
+
+.agenda h3 {
+    font-size: var(--font-size-h3);
+}
+
+.agenda p {
+    font-size: var(--font-size-p);
 }

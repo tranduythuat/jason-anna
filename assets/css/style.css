@@ -15,6 +15,10 @@
 :root {
     --text-color: #826f5aff;
     --background-color: #f4f0eeff;
+    --font-size-h2: 3.2rem;
+    --font-size-h3: 2rem;
+    --font-size-h4: 1.5rem;
+    --font-size-p: 1.625rem;
 }
 
 *,
@@ -29,16 +33,15 @@ body {
     font-family: "ICIELBCOLDSTYLE-REGULAR", sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
-    font-size: 22px;
+    /* font-size: 62.5%; */
+    /* font-size: 22px; */
 }
 
 #content {
     max-width: 1730px;
-    
 }
 
 .container {
-    max-width: 1200px;
     width: 90%;
     margin: auto;
 }
