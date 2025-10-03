@@ -1,0 +1,213 @@
+
+
+.home-contaier {
+    width: 100%;
+    /* z-index: 0; */
+}
+
+/* <=========== hero section ============> */
+.home-contaier .hero {
+    background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/DN/DN_00071.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffe5;
+}
+
+.home-contaier .hero h1 {
+    font-family: "UVNKECHUYEN1", sans-serif;
+    font-size: 8rem;
+    padding-top: 410px;
+}
+
+.home-contaier .hero .wedding-date {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 190px;
+}
+
+/* <=============== timeline section ==================> */
+.wedding-timeline {
+    width: 100%;
+    display: flex;
+    max-height: 807px;
+}
+
+.wedding-timeline .timeline-image,
+.wedding-timeline .timeline-content {
+    width: 50%;
+}
+
+.wedding-timeline .timeline-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.wedding-timeline .timeline-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 150px 30px 150px 150px;
+}
+
+.wedding-timeline .timeline-content .divier-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.wedding-timeline .timeline-content h2 {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.wedding-timeline .timeline-content h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.wedding-timeline .timeline-content h5 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.wedding-timeline .timeline-content .time {
+    font-size: 1.5rem;
+}
+
+.wedding-timeline .timeline-content .location {
+    font-size: 1rem;
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 2px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+/* <================= Tea Ceremony Section =================> */
+.tea-ceremony {
+    width: 100%;
+    background-image: linear-gradient(rgba(38, 38, 38, 0.711), rgba(46, 46, 46, 0.612)), url('../../assets/images/home/bg_142.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.tea-ceremony .tea-ceremony-container {
+    margin: 52px;
+    background-color: var(--background-color);
+    display: flex;
+    padding: 90px 130px;
+}
+
+.tea-ceremony-container .tea-ceremony-content,
+.tea-ceremony-container .tea-ceremony-images {
+    width: 50%;
+}
+
+.tea-ceremony-container .tea-ceremony-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tea-ceremony-container .tea-ceremony-content h2 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.tea-ceremony-container .tea-ceremony-content p {
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+}
+
+.tea-ceremony-container .tea-ceremony-content .divier-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.tea-ceremony-container .tea-ceremony-content .event-details h3 {
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.tea-ceremony-container .tea-ceremony-content .event-details .time {
+    font-size: 2rem;
+}
+
+.tea-ceremony-container .tea-ceremony-content .event-details .location-box {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.location-box img {
+    position: absolute;
+    left: 16px;
+    top: 11px;
+}
+
+.location-box .location {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 4px 30px 4px 40px;
+    line-height: 1.3;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.tea-ceremony-container .tea-ceremony-content .event-details .dresscode-lable {
+    font-size: 1.62rem;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.tea-ceremony-container .tea-ceremony-content .event-details .dresscode-desc {
+    font-size: 2rem
+}
+
+/* <================ Traditional Wedding Section ===============>*/
+.traditional-wedding {
+    width: 100%;
+    display: flex;
+    padding: 90px;
+}
+
+
+.traditional-wedding .wedding-images,
+.traditional-wedding .wedding-content {
+    display: flex;
+    width: 50%;
+}
+
+.traditional-wedding .wedding-images {
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+.traditional-wedding .wedding-images .img-box {
+    width: 50%;
+    padding: 5px;
+}
+
+.traditional-wedding .wedding-images img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.traditional-wedding .wedding-content {
+    flex-direction: column;
+}
