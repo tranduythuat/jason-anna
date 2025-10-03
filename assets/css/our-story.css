@@ -1,0 +1,149 @@
+.our-story {
+    width: 100vw;
+}
+
+.story-block {
+    padding: 50px 0;
+}
+
+.our-story p {
+    font-size: 1.625rem;
+    margin: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+.story-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+/* ================hero============== */
+.our-story .hero {
+    background-image: url('../images/our-story/headbackgroud.png');
+    background-size: cover;
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.our-story .hero .hero-content {
+    font-weight: 300;
+    text-align: center;
+}
+
+.our-story .hero .hero-content h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+.our-story .hero .hero-content .fall-in,
+.our-story .hero .hero-content .all-because {
+    font-style: italic;
+}
+
+.our-story .hero .hero-content .fall-in span {
+    font-style: normal;
+}
+
+.story-container {
+    width: 100%;
+    padding: 0 100px;
+}
+/* ==============story 1============= */
+.story-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.story-1 .story-image img {
+    position: relative;
+    top: -100px;
+}
+
+.story-1 .story-content {
+    padding-left: 70px ;
+    text-align: justify;
+}
+
+.story-1 .story-content h2 {
+    font-family: 'UVNKECHUYEN1', sans-serif;
+    font-size: 4.125rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.story-1 .story-content .text-4 {
+    margin-top: 30px;
+}
+
+/* ==============story 2============= */
+.story-2 {
+    display: flex;
+    min-height: 550px;
+}
+
+.story-2 .story-content {
+    width: 60%;
+    padding: 30px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.story-2 .story-image {
+    width: 40%;
+    position: relative;
+}
+
+.story-2 .story-image img {
+    position: absolute;
+    object-fit: cover;
+}
+
+.story-2 .story-image img.image-1 {
+    width: 50%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+.story-2 .story-image img.image-2 {
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: auto;
+}
+/* <!-- Story Part 3 --> */
+.story-3 {
+    display: flex;
+}
+
+.story-3 .story-content {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.story-3 .story-content h2 {
+    margin-bottom: 50px;
+}
+
+.story-3 .story-content p {
+    text-align: justify;
+}
+
+.story-3 .story-image {
+    width: 40%;
+    display: flex;
+}
+
+.story-3 .story-image img {
+    padding: 5px;
+}
