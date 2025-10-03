@@ -54,10 +54,20 @@ body {
     display: none;
 }
 
+footer {
+    width: 100%; 
+    background: #2a2a2a6d;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
-  background: #2a2a2a6d;
+  /* background: #2a2a2a6d; */
   height: 50px;
   z-index: 12;
 }
@@ -74,6 +84,8 @@ body {
     order: 2;
     display: flex;
     margin: 0 auto;
+    background: #2a2a2a6d;
+    border-bottom: 0.7px solid var(--background-color);
 }
 
 .menu-items li {

@@ -346,12 +346,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     color: #fff;
     font-weight: 300;
 }
 
 .agenda h2 {
     font-size: var(--font-size-h2);
+    padding-top: 20px;
 }
 
 .agenda h3 {
@@ -360,4 +362,16 @@
 
 .agenda p {
     font-size: var(--font-size-p);
+}
+
+.agenda p.tradition-text {
+    font-size: 1rem;
+}
+
+.agenda .agenda-content {
+    margin-bottom: 120px;
+}
+
+.agenda .agenda-content .agenda-item {
+    margin-top: 40px;
 }
