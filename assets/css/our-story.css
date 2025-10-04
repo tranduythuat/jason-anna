@@ -19,7 +19,7 @@
 
 /* ================hero============== */
 .our-story .hero {
-    background-image: url('../images/our-story/headbackgroud1.jpg');
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/our-story/headbackgroud1.jpg');
     background-size: cover;
     background-position: 100% 30%;
     background-repeat: no-repeat;
@@ -88,7 +88,8 @@
 /* ==============story 2============= */
 .story-2 {
     display: flex;
-    min-height: 550px;
+    min-height: 620px;
+    margin-top: -200px;
 }
 
 .story-2 .story-content {
@@ -112,7 +113,7 @@
 }
 
 .story-2 .story-image img.image-1 {
-    width: 50%;
+    width: 40%;
     height: auto;
     bottom: 0;
     left: 0;
@@ -121,7 +122,7 @@
 .story-2 .story-image img.image-2 {
     top: 0;
     right: 0;
-    width: 60%;
+    width: 70%;
     height: auto;
 }
 
@@ -190,9 +191,6 @@
     text-align: right;
     justify-content: flex-end;
     margin: 5px;
-}
-
-.story-4 .story-content {
     width: 55%;
 }
 
@@ -225,7 +223,7 @@
 }
 
 .story-5 .story-content {
-    width: 65%;
+    width: 60%;
     padding-left: 30px;
     display: flex;
     align-items: center;
@@ -240,7 +238,7 @@
 }
 
 .story-5 .story-image {
-    width: 35%;
+    width: 40%;
     display: flex;
 }
 
@@ -439,13 +437,14 @@
 .story-10 .story-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    text-align: left;
+    justify-content: flex-end;
+    text-align: right;
     margin: 5px;
+    padding-right: 50px;
 }
 
 .story-10 .story-image {
-    width: 50%;
+    width: 45%;
     display: flex;
 }
 
@@ -454,7 +453,7 @@
 }
 
 .story-10 .story-content {
-    width: 50%;
+    width: 55%;
     padding-left: 50px;
 }
 
@@ -603,7 +602,7 @@
 }
 
 .story-16 .story-content {
-    width: 60%;
+    width: 65%;
     padding-left: 50px;
     display: flex;
     align-items: center;
@@ -618,7 +617,7 @@
 }
 
 .story-16 .story-image {
-    width: 40%;
+    width: 35%;
     display: flex;
 }
 
@@ -646,4 +645,245 @@
     padding: 5px;
     width: 100%;
     object-fit: cover;
+}
+
+
+/* ========= Story 17 ============= */
+.story-17 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -180px;
+}
+
+.story-17 img {
+    object-fit: cover;
+}
+
+.story-17 .story-content {
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 5px;
+    width: 60%;
+}
+
+.story-17 .story-content h2 {
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+
+.story-17 .story-image {
+    width: 36%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.story-17 .story-image .img-box {
+    /* width: 100%; */
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+
+.story-17 .story-image .image-1 {
+    height: 80%;
+}
+
+.story-17 .story-image .image-2 {
+    width: 100%;
+}
+
+/* =========== story 18 ============= */
+.story-18 {
+    display: flex;
+    min-height: 810px;
+}
+
+.story-18 .story-content {
+    width: 60%;
+    padding-left: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.story-18 .story-image {
+    width: 40%;
+    position: relative;
+}
+
+.story-18 .story-image img {
+    position: absolute;
+    object-fit: cover;
+}
+
+.story-18 .story-image img.image-1 {
+    width: 65%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.story-18 .story-image img.image-2 {
+    bottom: 0;
+    right: 0;
+    width: 45%;
+    height: auto;
+}
+
+
+/* ========= Story 19 ============= */
+.story-19 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -180px;
+}
+
+.story-19 img {
+    object-fit: cover;
+}
+
+.story-19 .story-content {
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 5px;
+    width: 50%;
+}
+
+.story-19 .story-content h2 {
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+
+.story-19 .story-image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.story-19 .story-image .img-box {
+    /* width: 100%; */
+    display: flex;
+    align-items: end;
+    padding: 10px;
+}
+
+.story-19 .story-image .image-1 {
+    height: 80%;
+}
+
+.story-19 .story-image .image-2 {
+    width: 100%;
+}
+
+
+/* ========= story-20 =========== */
+.story-20 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+}
+
+.story-20 img {
+    object-fit: cover;
+    margin: 5px;
+}
+
+.story-20 .story-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    width: 60%;
+}
+
+.story-20 .story-image {
+    width: 40%;
+    display: flex;
+}
+
+.story-20 .story-image img {
+    width: 80%;
+}
+
+
+/* ========= story-21 =========== */
+.story-21 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+}
+
+.story-21 img {
+    object-fit: cover;
+    margin: 5px;
+}
+
+.story-21 .story-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    width: 60%;
+}
+
+.story-21 .story-image {
+    width: 40%;
+    display: flex;
+}
+
+.story-21 .story-image img {
+    width: 80%;
+}
+
+
+/* ========= story-22 =========== */
+.story-22 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -200px;
+}
+
+.story-22 img {
+    object-fit: cover;
+    margin: 5px;
+}
+
+.story-22 .story-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 5px;
+}
+
+.story-22 .story-content {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.story-22 .story-content .story-title {
+    margin-top: 130px;
+}
+
+.story-22 .story-image {
+    width: 50%;
+    display: flex;
+}
+
+.story-22 .story-image .image-1 {
+    width: 35%;
+}
+
+.story-22 .story-image .image-1 {
+    width: 65%;
 }
