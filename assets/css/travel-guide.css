@@ -22,7 +22,7 @@
 .travel-guide-container .hero {
     background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/travel-guide/DN_00170.JPG');
     background-size: cover;
-    background-position: 100% 30%;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;

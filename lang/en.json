@@ -1,29 +1,4 @@
 {
-    "siteTitle": "Wedding Invitation",
-    "menu": {
-      "home": "Home",
-      "ourStory": "Our Story",
-      "faq": "FAQ",
-      "travel": "Travel Guide"
-    },
-    "pages": {
-      "home": {
-        "title": "Welcome",
-        "content": "This is our wedding homepage."
-      },
-      "ourStory": {
-        "title": "Our Story",
-        "content": "Here is how we met and our journey together."
-      },
-      "faq": {
-        "title": "FAQ",
-        "content": "Some frequently asked questions."
-      },
-      "travel": {
-        "title": "Travel Guide",
-        "content": "Information for our traveling guests."
-      }
-    },
-    "footerText": "© 2025 Our Wedding"
-  }
+    
+}
   

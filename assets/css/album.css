@@ -1,0 +1,153 @@
+.album {
+    width: 100%;
+}
+
+/* ================hero============== */
+.album .hero {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/photos/DN_00170.JPG');
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ================ photo-gallery ========= */
+.album .photo-gallery {
+    padding: 210px 150px;
+}
+
+.album .gallery-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.album .photo-gallery .gallery-grid .gallery-item {
+    width: 33.33%;
+    padding: 30px;
+}
+
+/* ============== Names Section ================= */
+.album .names h2 {
+    font-size: 1.5rem;
+    padding: 33px 100px;
+}
+
+.album .names .names-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============== Featured Photo Section ==================== */
+.album .featured-photo {
+    background-image:linear-gradient(rgba(57, 57, 57, 0.739), rgba(24, 24, 24, 0.739)), url('../images/photos/DN_00463.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 848px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.album .featured-photo .featured-container {
+    max-width: 472px;
+    position: relative;
+}
+
+.album .featured-photo .featured-container .main-photo {
+    width: 100%;
+    height: 600px;
+}
+
+.album .featured-photo .featured-container .logo {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+    top: -30px;
+}
+
+/* ==========Journey Section ============ */
+.journey .journey-container {
+    display: flex;
+    padding: 60px 30px;
+}
+.journey .journey-container h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+
+.journey .journey-container .journey-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.journey .journey-container .journey-text {
+    width: 40%;
+}
+
+.journey .journey-container .journey-gallery {
+    width: 30%;
+}
+
+.journey .journey-container .journey-item .journey-photo {
+    margin-bottom: 15px;
+}
+
+.journey .journey-container .journey-item:nth-child(3) .journey-photo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.journey .journey-container .journey-item:nth-child(3) .img-1 img {
+    height: 80%;
+}
+
+/* Final Hero Section */
+.final-hero{
+    padding: 116px 90px;
+    background-color: #4c4339ff;
+}
+.final-hero p {
+    font-size: .9rem;
+}
+
+.final-hero h2 {
+    margin: 60px 0 90px;
+    font-size: 3.625rem;
+    letter-spacing: 1.5px;
+}
+
+.final-hero .final-hero-content {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.188), rgba(70, 70, 70, 0.356)) ,url('../images/photos/DN_00071.JPG');
+    background-size: cover;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 752px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffffffe5;
+}
+
+.final-hero .final-hero-content .final-hero-text {
+    text-align: center;
+}

@@ -1,0 +1,204 @@
+
+.rsvp  {
+    width: 100%;
+}
+
+.rsvp .hero h2,
+.rsvp .hero p {
+    font-size: 1.938rem;
+}
+
+.rsvp .hero h2 {
+    letter-spacing: 5px;
+}
+
+.rsvp .hero {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/photos/DN_00739.JPG');
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.rsvp .hero .hero-content {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ===================== Header Section==================  */
+.divider-line {
+    margin: 0 120px;
+}
+
+.rsvp .invitation-header {
+    padding: 74px 120px;
+}
+.rsvp .invitation-header .header-content {
+    display: flex;
+}
+
+.rsvp .invitation-header .header-content .text-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding: 20px 10px 20px 0;
+    width: 55%;
+}
+
+.rsvp .invitation-header h1 {
+    font-size: 86px;
+    font-weight: 300;
+    font-family: 'UVNKECHUYEN1', sans-serif;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+.rsvp .invitation-header p {
+    font-size: 22px;
+}
+
+.rsvp .invitation-header .header-content .image-content {
+    width: 45%;
+}
+
+.rsvp .invitation-header .header-content .image-content img {
+    width: 100%;
+    height: 328px;
+    object-fit: cover;
+}
+
+
+/* RSVP Form Section */
+.rsvp-section {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.56rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Attendance Options */
+.attendance-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.option-label {
+    position: relative;
+    cursor: pointer;
+}
+
+.radio-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.option-btn {
+    display: block;
+    padding: 15px 20px;
+    border: 2px solid #8b7d72;
+    background-color: transparent;
+    color: #8b7d72;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.option-label:hover .option-btn {
+    background-color: #a89588;
+    border-color: #a89588;
+    color: white;
+}
+
+.radio-input:checked + .option-btn {
+    background-color: #8b7d72;
+    color: white;
+}
+
+/* Form Fields */
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid #d4c9c0;
+    background-color: white;
+    font-size: 0.95rem;
+    font-family: 'Georgia', serif;
+    color: #6b5d54;
+    transition: all 0.3s ease;
+}
+
+.form-input::placeholder {
+    color: #b8aea5;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #8b7d72;
+    box-shadow: 0 0 0 3px rgba(139, 125, 114, 0.1);
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 15px 40px;
+    border: none;
+    background-color: #8b7d72;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Georgia', serif;
+}
+
+.submit-btn:hover {
+    background-color: #6b5d54;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 125, 114, 0.3);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}

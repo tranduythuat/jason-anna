@@ -4,6 +4,10 @@
     margin: 30px 0;
 }
 
+.divier-icon-mobile {
+    display: none;
+}
+
 .home-contaier {
     width: 100vw;
     /* z-index: 0; */
@@ -20,7 +24,7 @@
 .home-contaier .hero {
     background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/DN/DN_00071.JPG');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
@@ -112,12 +116,16 @@
     margin: 52px;
     background-color: var(--background-color);
     display: flex;
-    padding: 90px 130px;
+    align-items: center;
+    padding: 90px 70px;
 }
 
-.tea-ceremony-container .tea-ceremony-content,
+.tea-ceremony-container .tea-ceremony-content {
+    width: 60%;
+    padding-right: 30px;
+}
 .tea-ceremony-container .tea-ceremony-images {
-    width: 50%;
+    width: 40%;
 }
 
 .tea-ceremony-container .tea-ceremony-images {
@@ -129,11 +137,11 @@
 
 .tea-ceremony-container .tea-ceremony-images img {
     padding: 5px;
-    width: 90%;
+    width: 100%;
 }
 
 .tea-ceremony-container .tea-ceremony-content h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: 300;
     padding-bottom: 20px;
 }
@@ -147,6 +155,10 @@
     padding-top: 30px;
     font-size: 2rem;
     font-weight: 300;
+}
+
+.tea-ceremony-images .dresscode {
+    display: none;
 }
 
 .tea-ceremony-container .tea-ceremony-content .event-details .time {
@@ -188,37 +200,36 @@
 .traditional-wedding {
     width: 100vw;
     display: flex;
-    padding: 90px;
+    padding: 60px;
 }
 
-
-.traditional-wedding .wedding-images,
-.traditional-wedding .wedding-content {
-    display: flex;
-    width: 50%;
+.traditional-mobile {
+    display: none;
 }
 
 .traditional-wedding .wedding-images {
+    width: 50%;
+    display: flex;
     flex-wrap: wrap;
-    padding: 70px;
-    height: 80%;
+    padding: 70px 70px 70px 0;
+    height: 100%;
+}
+.traditional-wedding .wedding-content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
 }
 
 .traditional-wedding .wedding-images .img-box {
     width: 50%;
-    height: 222px;
-    padding: 5px;
+    height: 230px;
+    padding: 3px;
 }
 
 .traditional-wedding .wedding-images img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
-
-.traditional-wedding .wedding-content {
-    flex-direction: column;
-    padding: 20px;
 }
 
 .traditional-wedding .wedding-content h2 {
@@ -340,7 +351,7 @@
 .agenda {
     background-image: linear-gradient(rgba(46, 41, 35, 0.678), rgba(52, 33, 12, 0.324)), url('../images/home/DN_00750.JPG');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 0;
     background-repeat: no-repeat;
     width: 100vw;
     display: flex;
@@ -375,3 +386,210 @@
 .agenda .agenda-content .agenda-item {
     margin-top: 40px;
 }
+
+/* Dưới 768px */
+@media (max-width: 768px) {
+    .divier-icon-mobile {
+        display: flex;
+        width: 6px;
+        height: 6px;
+        margin: 50px auto;
+    }
+    .home-contaier .divier-icon {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .home-contaier .hero {
+        height: 751px;
+        align-items: start;
+        background-position: 45% 30%;
+    }
+    .home-contaier .hero .hero-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .home-contaier .hero h1 {
+        font-size: 10vw;
+        padding-top: 100px;
+        font-weight: 300;
+    }
+    .home-contaier .hero .wedding-date {
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+    /* wedding-timeline */
+    .wedding-timeline {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .wedding-timeline .timeline-image, 
+    .wedding-timeline .timeline-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wedding-timeline .timeline-image {
+        padding: 48px 0;
+    }
+    .wedding-timeline .timeline-content {
+        padding: 0;
+    }
+    .wedding-timeline .timeline-content h2 {
+        font-size: 1.688rem;
+        margin-bottom: 15px;
+    }
+    .wedding-timeline .timeline-content h4 {
+        font-size: 0.938rem;
+    }
+    .wedding-timeline .timeline-content h5 {font-size: 0.688rem;margin-bottom: 0;letter-spacing: 1.1px;}
+    .wedding-timeline .timeline-image img {
+        width: 280px;
+    }
+    .wedding-timeline .timeline-content .timeline-event {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .wedding-timeline .timeline-content .location {
+        padding: 2px 10px;
+        font-size: .8rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* tea-ceremony */
+    .tea-ceremony {
+        width: 100%;
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .tea-ceremony .tea-ceremony-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px;
+        margin: 40px;
+        width: 100%;
+    }
+
+    .tea-ceremony .divier-icon {
+        margin: 5px 0;
+    }
+
+    .tea-ceremony-content .dresscode {
+        display: none;
+    }
+    .tea-ceremony-images .dresscode {
+        display: unset;
+        letter-spacing: 1.2px;
+        margin-top: 10px;
+    }
+
+    .tea-ceremony-container .tea-ceremony-content, 
+    .tea-ceremony-container .tea-ceremony-images {
+        width: 100%;
+    }
+
+    .tea-ceremony-container .tea-ceremony-content h2 {
+        font-size: 22px;
+    }
+    .tea-ceremony-container .tea-ceremony-content p {font-size: 10.8px;margin-bottom: 15px}
+    .tea-ceremony-container .tea-ceremony-content .event-details h3 {font-size: 13px;padding-top: 15px;}
+
+    .tea-ceremony-images .dresscode-lable,
+    .tea-ceremony-container .tea-ceremony-content .event-details .dresscode-lable {font-size: 10.9px;}
+
+    .tea-ceremony-images .dresscode-desc,
+    .tea-ceremony-container .tea-ceremony-content .event-details .dresscode-desc {font-size: 13px;}
+
+    /* traditional-wedding */ 
+    .traditional-wedding {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 60px;
+    }
+    .traditional-mobile {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .traditional-mobile h2 {font-size: 25.5px; margin-bottom: 10px;}
+    .traditional-mobile p {font-size: 12px}
+    .traditional-desktop {
+        display: none;
+    }
+    .traditional-wedding .wedding-images {
+        padding: 50px 0;
+    }
+    .traditional-wedding .wedding-images, .traditional-wedding .wedding-content {width: 100%;}
+    .traditional-wedding .wedding-content h3 {font-size: 17px;padding-top: 10px;}
+    .traditional-wedding .wedding-content p {font-size: 17px;margin-bottom: 10px;}
+    .traditional-wedding .wedding-content .small {
+        font-size: 12px;
+    }
+    .traditional-wedding .wedding-content {
+        justify-content: center;
+        text-align: center;
+    }
+    .traditional-wedding .wedding-content .divier-icon {
+        margin: 15px auto;
+    }
+    .traditional-wedding .location {font-size: 8px;}
+    /* cruise-reception */
+    .cruise-reception {
+        text-align: center;
+        padding:30px 60px;
+    }
+    .cruise-reception h2{font-size: 25px;}
+    .cruise-reception p{font-size: 12px;}
+
+    .cruise-reception .cruise-details {
+        padding: 0;
+        flex-direction: column;
+    }
+    .cruise-reception .cruise-details div {
+        width: 100%;
+    }
+
+    .cruise-reception .cruise-details .date-time h3 {font-size: 15px;margin-bottom: 0;padding-bottom: 10px;}
+    .cruise-reception .cruise-details .date-time .location-box {margin-top: 15px;}
+    .cruise-reception .cruise-details .date-time .location-box .location {font-size: 8.3px;}
+    .cruise-reception .cruise-details .date-time .embarkation {font-size: 10.9px;}
+    .cruise-reception h3 {font-size: 16px;}
+    .cruise-reception h4 {font-size: 13px;}
+
+    .cruise-reception .cruise-details .dresscode .dress-colors.second {margin-top: 40px;}
+    .cruise-reception .cruise-details .dresscode .dress-colors .color-palette {margin-top: 10px;}
+    .cruise-reception .cruise-details .dresscode .dress-colors .color-palette .color-box {
+        width: 35px;
+        height: 35px;
+    }
+    /* agenda */
+    .agenda {
+        margin-top: 50px;
+        padding: 0 54px;
+        height: 750px;
+        background-position: 50% 50%;
+    }
+
+    .agenda h2 {font-size: 34px;margin-bottom: 15px;}
+    .agenda h3 {font-size: 16px;margin-bottom: 15px;}
+    .agenda p {font-size: 14px;margin-bottom: 10px;}
+    .agenda p.tradition-text {margin-top: -15px;margin-bottom: 10px;}
+}
+  
+/* Từ 768px đến 1023px */
+@media (min-width: 769px) and (max-width: 1023px) {
+}
+  

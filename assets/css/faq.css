@@ -1,0 +1,49 @@
+.faq p {
+    font-size: 1.625rem;
+    margin: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+
+.faq h2 {
+    font-size: 3.125rem;
+}
+
+/* ================hero============== */
+.faq .hero {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/faq/DN_00728.JPG');
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+
+.faq .faq-content {
+    padding: 80px 150px;
+}
+
+.faq-item {
+    display: flex;
+    width: 100%;
+    padding: 90px 0;
+}
+
+.faq-item .icon {
+    width: 10%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-item .content {
+    width: 90%;
+}
