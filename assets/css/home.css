@@ -587,6 +587,11 @@
     .agenda h3 {font-size: 16px;margin-bottom: 15px;}
     .agenda p {font-size: 14px;margin-bottom: 10px;}
     .agenda p.tradition-text {margin-top: -15px;margin-bottom: 10px;}
+
+    .bottom-menu {
+        display: none;
+        height: 0;
+    }
 }
   
 /* Từ 768px đến 1023px */
