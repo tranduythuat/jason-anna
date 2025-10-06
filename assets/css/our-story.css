@@ -463,11 +463,17 @@
     top: -50px;
     display: flex;
     flex-direction: row;
+    height: 400px;
 }
 
 .story-11 img {
+    width: 100%;
     object-fit: cover;
     margin: 5px;
+}
+
+.story-11 .story-image .image-1 {
+    object-position: 0 100%;
 }
 
 .story-11 .story-content {
@@ -479,12 +485,12 @@
 }
 
 .story-11 .story-content {
-    width: 45%;
+    width: 60%;
     padding-left: 50px;
 }
 
 .story-11 .story-image {
-    width: 55%;
+    width: 40%;
     display: flex;
 }
 
