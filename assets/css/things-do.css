@@ -121,3 +121,27 @@
 .container .content .divier .divier-icon {
     margin: 90px 0;
 }
+
+@media (max-width: 768px) {
+    .things-do .hero{
+        height: 650px;
+        background-position: 60% 100%;
+        background-size: 250%;
+    }
+    
+    .things-do .hero .hero-content h2 {padding-top: 0;}
+    .things-do .container .title h2 {font-size: 2rem; padding-top: 40px;font-weight: 300;}
+    .things-do .container .title img {width: 6px; height: 6px; margin-bottom: 25px;}
+    .things-do .container .content .item button {width: 250px;padding: 5px;font-size: 1.7rem;margin-bottom: 5px;}
+
+    .things-do .container .content .item .image-container {padding: 30px 5px;}
+    .image-container .row .col {margin: 5px}
+    .things-do .image-container .row {height: 125px;}
+    .image-container .row h3 {font-size: 1.2rem;}
+    .image-container .overlay {padding: 10px;}
+    .container .content .divier .divier-icon {margin: 30px 0; width: 6px; height: 6px;}
+    .image-container .row .col:hover {
+        transform: translateY(-5px) scale(1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+}

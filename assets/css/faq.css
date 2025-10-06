@@ -47,3 +47,37 @@
 .faq-item .content {
     width: 90%;
 }
+
+@media (max-width: 768px) {
+    .faq .hero{
+        height: 750px;
+        background-position: 45% 100%;
+        background-size: cover;
+    }
+    .faq .faq-content {
+        padding: 0;
+    }
+
+    .faq-item .icon {
+        width: 20%;
+        padding-right: 0;
+        align-items: start;
+    }
+    .faq-item .content {
+        width: 80%;
+    }
+    .faq-item .icon img {
+        width: 35%;
+    }   
+    .faq-item {
+        text-align: left;
+        padding: 20px;
+    }
+    .faq h2 {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+    .faq p {
+        font-size: 1rem;
+    }
+}

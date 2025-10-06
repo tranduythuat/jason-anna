@@ -151,3 +151,89 @@
 .final-hero .final-hero-content .final-hero-text {
     text-align: center;
 }
+
+
+@media (max-width: 768px) {
+    .album .hero{
+        height: 750px;
+        background-position: 55% 100%;
+        background-size: cover;
+    }
+    .album .hero h2 {
+        font-size: 2.4rem;
+        letter-spacing: 1.2px;
+        font-weight: 300;
+    }
+    .album .photo-gallery {
+        padding: 20px 10px;
+    }
+    .album .photo-gallery .gallery-grid .gallery-item {
+        width: 50%;
+        padding: 6px;
+    }
+    .album .names h2 {font-size: 1rem;font-weight: 300;padding: 10px;}
+    .album .names .names-container {padding: 0 15px;}
+    .album .names .names-container div {width: 33.33%; text-align: center;}
+    .album .featured-photo {
+        min-height: 500px;
+    }
+    .album .featured-photo .featured-container .main-photo {
+        height: 380px;
+        width: 320px;
+        object-fit: cover;
+    }
+    .journey .journey-container {
+        padding:20px 25px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .journey .journey-container .journey-text {
+        width: 100%;
+        margin-bottom: 30px;
+        flex-direction: column-reverse;
+    }
+    
+    .journey .journey-container .journey-gallery {
+        width: 50%;
+        margin-top: -115px;
+    }
+    .journey .journey-container .journey-item {
+        padding: 5px;
+    }
+    .journey .journey-container .journey-item .journey-photo{
+        margin-bottom: 10px;
+    }
+
+    .journey .journey-container h2 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        text-align: left;
+        padding-left: 53%;
+    }
+
+    .final-hero {
+        padding: 60px 30px;
+    }
+    .final-hero .final-hero-content {
+        height: 580px;
+        width: 100%;
+        background-position: 50% 100%;
+        background-size: 220%;
+    }
+
+    .final-hero h2 {
+        font-weight: 300;
+        font-size: 2.4rem;
+        margin: 20px 0 30px;
+    }
+    
+}
+
+@media (max-width: 430px) {
+    .journey .journey-container h2 {
+        font-size: 1.4rem;
+    }
+    .journey .journey-container .journey-gallery {
+        margin-top: -110px;
+    }
+}

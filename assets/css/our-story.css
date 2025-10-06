@@ -9,7 +9,7 @@
 .our-story p {
     font-size: 1.625rem;
     margin: 10px 0;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
 }
 
 .story-title {
@@ -886,4 +886,121 @@
 
 .story-22 .story-image .image-1 {
     width: 65%;
+}
+
+@media (max-width: 768px) {
+    .our-story .hero{
+        height: 750px;
+        background-position: 43% 20%;
+        background-size: 300%;
+    }
+    .our-story p{font-size: .8rem;}
+    .story-container {
+        padding: 0 20px;
+    }
+    .story-container .story-block {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .story-container .story-block h2 {font-size: 10px;}
+    .story-1 div:nth-child(1) {width: 30%;}
+    .story-1 div:nth-child(2) {width: 70%;padding-left: 20px;}
+    .story-1 .story-image img {width: 100%;position: unset;}
+    .story-1 .story-content .text-4 {margin-top: 15px;}
+
+    .story-2 {min-height: 150px;margin-top: -30px;}
+    .story-3 .story-conten,.story-3 .story-image {width: 50%;}
+    .story-3 .story-content h2 {margin-bottom: 10px;}
+    .story-3 .story-content {padding-left: 10px;}
+
+    .story-4 img {width: 35%;}
+    .story-4 .story-content {width: 55%;padding-right: 3px;margin: 0;}
+    .story-4 .story-image .img-box {padding: 3px;}
+
+    .story-6 .story-content{padding-right: 15px;width: 40%;}
+    .story-6 .story-image {width: 60%;}
+    .story-6 .story-image .row-1 {width: 90%;}
+    .story-6 .story-image .row-2 {width: 85%;}
+
+    .story-7 {min-height: 167px;}
+    .story-7 .story-content {padding-left: 30px;}
+
+    .story-8 {height: 160px;}
+    .story-8 .story-content {padding-right: 15px;}
+    .story-8 .story-image {height: 116px;}
+
+    .story-9{margin-top: -50px;}
+    .story-9 .story-content {padding-left: 15px; width: 60%;}
+    .story-9 .story-image {width: 40%;display: flex; justify-content: end;}
+    .story-9 .story-image img {width: 80%;}
+    .story-10 {margin-top: -60px;}
+    .story-10 .story-content {padding-right: 15px; width: 60%;}
+    .story-10 .story-image img {width: 85%;}
+
+    .story-11 {height: 167px;position: unset;}
+
+    .story-12 .story-content {margin-right: 15px;padding-top: 0;}
+    .story-12 .story-image {padding-right: 15px;}
+
+    .story-13 .story-content {padding-left: 15px;width: 60%;}
+
+    .story-14 {margin-top: -50px;}
+    .story-14 .story-image {padding-right: 15px;width: 40%;}
+    .story-14 .story-image img {width: 90%;}
+    .story-14 .story-content {margin-right: 15px;padding-top: 0;}
+
+    .story-16 {margin-top: -60px;}
+    .story-16 .story-content {padding-left: 15px;}
+    .story-16 .story-content h2 {margin-bottom: 10px;}
+
+    .story-17 {margin-top: -50px;}
+    .story-17 .story-content{margin: 0;width: 55%;}
+    .story-16 .story-image {width: 45%;}
+    .story-17 .story-content img {
+        width: 100%;
+    }
+    .story-17 .story-image {width: 40%;justify-content: start;}
+    .story-17 .story-image .img-box {padding: 0;margin-left: 3px;}
+    .story-17 .story-image .img-box:nth-child(1) {width: 40%;}
+    .story-17 .story-image .img-box:nth-child(2) {width: 60%;}
+    .story-17 .story-image .image-1 {
+        width: 100%;
+        height: 70%;
+    }
+    .story-17 .story-content h2 {padding-bottom: 20px;margin-right: 15px; width: 70%;}
+    .story-17 .story-content .box-img {width: 30%;}
+    .story-18 {min-height: 200px;}
+    .story-18 .story-content {padding-left: 15px;width: 60%;}
+    
+    .story-19 {height: 120px;}
+    .story-19 .story-content{margin: 0;width: 50%;}
+    .story-19 .story-image .image-1 {width: 100%;}
+    .story-19 .story-image .img-box{margin-left: 3px;}
+    .story-19 .story-image .img-box:nth-child(1) {
+        padding: 0;
+        width: 55%;
+    }
+    .story-19 .story-image .img-box:nth-child(2) {
+        padding: 0;
+        width: 45%;
+    }
+    .story-19 .story-content h2 {padding-bottom: 20px;margin-right: 15px;}
+
+    .story-20 .story-image {width: 40%;}
+    .story-20 .story-content {margin-right: 0;}
+
+    .story-21 {margin-top: -60px;}
+    .story-21 .story-content {width: 55%;margin-right: 15px;}
+    .story-21 .story-image {width: 45%;}
+    .story-21 .story-image img {width: 74%;}
+
+    .story-22 {height: 150px; margin-top: 0;}
+    .story-22 .story-image .image-1 {width: 100%;}
+    .story-22 .story-image .image-2 {width: 100%;}
+    .story-22 .story-image img.image-1 {width: 130px;}
+    .story-22 .story-content .story-title {margin-top: 50px;} 
+
+    .story-12, .story-13, .story-19, .story-20  {
+        margin-top: -30px;
+    }
 }
