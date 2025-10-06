@@ -937,9 +937,12 @@
     .story-3 .story-content h2 {margin-bottom: 10px;}
     .story-3 .story-content {padding-left: 10px;}
 
+    .story-4 {height: 150px;}
     .story-4 img {width: 35%;}
     .story-4 .story-content {width: 55%;padding-right: 3px;margin: 0;}
     .story-4 .story-image .img-box {padding: 3px;}
+    .story-4 .story-image .image-1 {height: 100px;}
+    .story-4 .story-image .image-2 {height: 130px;}
 
     .story-6 .story-content{padding-right: 15px;width: 40%;}
     .story-6 .story-image {width: 60%;}
