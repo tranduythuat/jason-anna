@@ -70,9 +70,9 @@
 .title-right h2 {
     font-size: 3rem;
     font-weight: normal;
+    font-family: "ICIELBCOLDSTYLE-REGULAR", sans-serif;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    font-family: 'Garamond', serif;
 }
 
 .title-right .subtitle {
