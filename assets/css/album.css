@@ -124,6 +124,9 @@
 .final-hero{
     padding: 116px 90px;
     background-color: #4c4339ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .final-hero p {
     font-size: .9rem;
