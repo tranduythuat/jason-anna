@@ -311,10 +311,11 @@
 .cruise-reception .cruise-details .date-time .location-box{
     margin-top: 150px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .cruise-reception .cruise-details .date-time .location-box .location {
-    padding: 4px 10px 4px;
+    padding: 4px 30px 4px;
 }
 .cruise-reception .cruise-details .dresscode {
     padding: 0 25px;
@@ -338,6 +339,7 @@
     justify-content: center;
     flex-direction: row;
     margin-top: 25px;
+    width: 100%;
 }
 
 .cruise-reception .cruise-details .dresscode .dress-colors .color-palette .color-box {
