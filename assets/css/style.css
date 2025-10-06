@@ -55,16 +55,6 @@ body {
     display: none;
 }
 
-footer {
-    width: 100%; 
-    background: var(--text-color);
-    height: 50px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar {
   position: fixed;
   width: 100%;
@@ -138,6 +128,44 @@ footer {
     order: 1;
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
+}
+
+footer {
+    margin-top: -50px;
+    width: 100%; 
+    background: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--text-color);
+}
+
+.bottom-menu a {
+    height: 50px;
+     padding: 10px 0;
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.bottom-menu a:hover {
+    color: var(--text-color); /* màu khi hover */
+}
+.bottom-menu.active {
+    border-top: 1px solid rgb(255, 255, 255);
+
+}
+.bottom-menu.active a {
+    color: rgb(255, 255, 255);
 }
 
 /* ......../ media query /.......... */

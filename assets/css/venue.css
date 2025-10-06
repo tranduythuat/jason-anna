@@ -77,7 +77,6 @@
 
 .title-right .subtitle {
     font-size: 1rem;
-    font-style: italic;
     letter-spacing: 1px;
     opacity: 0.9;
 }
@@ -147,7 +146,7 @@
 
 .two-column-layout {
     display: flex;
-    padding: 50px 95px;
+    padding: 50px 95px 80px;
 }
 
 .cruise-section .two-column-layout .column {
@@ -178,7 +177,7 @@
 }
 
 .image-grid-vertical img {
-    height: 350px;
+    height: 330px;
     margin-bottom: 20px;
 }
 

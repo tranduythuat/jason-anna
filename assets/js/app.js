@@ -62,6 +62,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const footerHtml = await fetch("partials/footer.html").then(r => r.text());
             document.getElementById("header").innerHTML = headerHtml;
             document.getElementById("footer").innerHTML = footerHtml;
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const pageParam = urlParams.get("page");
+            const bottomMenu = document.querySelector(".bottom-menu");
+
+            console.log('pageParam', pageParam);
+
+            // if (pageParam === "venue" || pageParam === "home" || pageParam === "album") {
+            if (bottomMenu) {
+                if (pageParam === "venue" || pageParam === "home" || pageParam === "album") {
+                    bottomMenu.classList.add("active");
+                } else {
+                    bottomMenu.classList.remove("active");
+                }
+            }
+
             attachHeaderEvents(); // gắn nav + lang switch
             applyTranslations(); // header vừa load, áp dụng i18n
         } catch (err) {
@@ -109,6 +125,15 @@ document.addEventListener("DOMContentLoaded", () => {
             updateURL();
             // highlight active nav
             highlightActiveNav();
+
+            const bottomMenu = document.querySelector(".bottom-menu");
+            if (bottomMenu) {
+                if (currentPage === "venue" || currentPage === "home" || currentPage === "album") {
+                    bottomMenu.classList.add("active");
+                } else {
+                    bottomMenu.classList.remove("active");
+                }
+            }
             // scroll top
             window.scrollTo({ top: 0, behavior: "smooth" });
         } catch (err) {
@@ -145,8 +170,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function refreshAOS() {
         // gọi defer để chắc DOM paint xong
-
-        console.log('refreshAOS')
         setTimeout(() => {
             if (typeof AOS !== "undefined") {
                 if (!aosInitialized) initAOS();
