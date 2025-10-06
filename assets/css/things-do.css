@@ -1,0 +1,123 @@
+.divier-icon {
+    width: 12px;
+    height: 12px;
+    margin: 30px 0;
+}
+
+/* ================hero============== */
+.things-do .hero {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/things-do/DN_00750.JPG');
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.things-do .hero .hero-content h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    padding-top: 200px;
+}
+
+.things-do .container .title  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.things-do .container .title img {
+    margin: 50px auto;
+}
+
+.things-do .container .title h2 {
+    font-size: 2.688rem;
+    padding-top: 80px;
+}
+
+.things-do .container .content .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.things-do .container .content .item button {
+    font-size: 2.5rem;
+    width: 552px;
+    border: none;
+    background-color: var(--text-color);
+    color: #ffffffe5;
+    padding: 10px 0;
+    margin-bottom: 40px;
+} 
+
+.things-do .container .content .item .image-container {
+    padding: 40px;
+}
+
+.things-do .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.things-do .image-container .row {
+    display: flex;
+    justify-content: center;
+    height: 440px;
+}
+
+.things-do .image-container .row .col-3 {
+    width: 33.33%;
+    max-width: 33.33%;
+}
+
+.things-do .image-container .row .col-2 {
+    width: 50%;
+}
+
+.image-container .row h3 {
+    font-size: 2rem;
+    color: #ffffffe5;
+}
+
+.image-container .row .col {
+    margin: 10px;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+.image-container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    padding: 30px 20px 20px;
+    transition: all 0.4s ease;
+}
+
+.image-container .row .col:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.container .content .divier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content .divier .divier-icon {
+    margin: 90px 0;
+}

@@ -1,0 +1,217 @@
+.travel-guide-container {
+    width: 100vw;
+}
+
+.travel-guide-container .divier-icon {
+    width: 12px;
+    height: 12px;
+    margin: 40px 0 30px;
+}
+
+.travel-guide-container p {font-size: 1.375rem;}
+.travel-guide-container h2 {font-size: 1.813rem;font-weight: 300;}
+
+.travel-guide-container .location {
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 2px 50px 4px;
+    text-decoration: none;
+}
+
+/* <=========== hero section ============> */
+.travel-guide-container .hero {
+    background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/travel-guide/DN_00170.JPG');
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.travel-guide-container .hero h1 {
+    font-size: 1.813rem;
+    font-weight: 300;
+}
+
+.visa-section {
+    padding: 40px 25px;
+}
+
+.visa-section .container {
+    text-align: center;
+}
+
+.visa-section .container h2 {
+    padding-bottom: 20px;
+    font-size: 2.2rem;
+}       
+
+.visa-section .container .visa-content .note {  
+    margin-bottom: 20px;
+}
+
+.sub-note-content {
+    margin-bottom: 20px;
+}
+
+.sub-note-content .sub-note {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.sub-note-content .sub-note::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 18px;
+    color: #8B7355; /* Màu nâu vàng */
+}
+
+/* <============airport-section==================> */
+.airport-section {
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.airport-section .divier-icon {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.airport-section .airport-container {
+    margin-bottom: 20px;
+}
+
+.airport-section .airport-container h2 {
+    padding-bottom: 20px;
+    font-size: 2.25rem;
+}
+
+/* <!-- Weather Section --> */
+.weather-section .weather-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 110px;
+}
+
+.weather-section .weather-container .weather-content,
+.weather-section .weather-container .weather-image {
+    width: 50%;
+}
+
+.weather-section .weather-container .weather-image .img-box {
+    width: 90%;
+}
+
+.weather-section .weather-container .weather-image img {
+    width: 100%;
+    height: 788px;
+    object-fit: cover;
+}
+
+.weather-section .weather-container .weather-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weather-section .weather-container .weather-content .divier-icon {
+    text-align: none;
+}
+
+.weather-section .weather-container .weather-content h2{
+    font-size: 3.438rem;
+    margin-bottom: 120px;
+    text-align: center;
+}
+.weather-section .weather-container .weather-content p {
+    font-size: 1.625rem;
+    text-align: justify;
+}
+
+/* <=========== Transportation section ============> */
+.transportation-section {
+    width: 100%;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.transportation-section .transportation-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.table, td, th {
+    border: 1px solid var(--text-color);
+    padding: 15px;
+}
+.transportation-section .transportation-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px 30px;
+}
+
+/* <=========== Uber section ============> */
+
+.uber-section {
+    width: 100%;
+}
+.uber-section h2 {
+    font-size: 2.688rem;
+}
+.uber-section p {
+    margin: 20px 0;
+}
+.uber-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uber-section .container .app-icons img {
+    padding: 10px;
+}
+
+/* <=========== Hotel Recommendations section ============> */
+.hotel-section {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.hotel-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 67px;
+}
+
+.hotel-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-section .container .hotel-item {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hotel-section .container .hotel-item p {
+    margin-top: 15px;
+}
+
+.hotel-section .container .hotel-item .location {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,189 @@
+.venue .hero {
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/venue/DN_00071.JPG');
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffe5;
+}
+
+.venue img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Section 1: Na's House Cafe */
+.cafe-section {
+    position: relative;
+    background-color: #3d3d3d;
+}
+
+.full-width-image {
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+}
+
+.full-width-image > img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 80px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    align-items: end;
+}
+
+.description-left {
+    color: white;
+}
+
+.description-left p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.title-right {
+    text-align: right;
+    color: white;
+}
+
+.title-right h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: 'Garamond', serif;
+}
+
+.title-right .subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+/* Section 2: Ninh Binh Legend Hotel */
+
+.hotel-venue p {
+    font-size: 1.5rem;
+}
+
+.hotel-venue h2 {
+    font-size: 4rem;
+}
+
+.hotel-venue {
+    background-color: #f4f0eeff;
+    padding: 100px;
+}
+
+.hotel-venue .two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: center;
+}
+
+.hotel-venue .image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.hotel-venue .image-column img {
+    height: 390px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hotel-venue .text-column {
+    padding: 60px 80px;
+}
+
+.hotel-venue .text-column h2 {
+    font-weight: normal;
+    text-align: right;
+    margin-bottom: 30px;
+    color: #8b7d72;
+    line-height: 1.3;
+}
+
+.text-column p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #5a5a5a;
+}
+
+/* Section 3: Venus Cruises */
+.cruise-section {
+    background-image: url('../images/venue/end-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4a3f35;
+    color: white;
+}
+
+.two-column-layout {
+    display: flex;
+    padding: 50px 95px;
+}
+
+.cruise-section .two-column-layout .column {
+    width: 50%;
+}
+
+.cruise-section .text-column {
+    color: rgb(255, 255, 255);
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cruise-section .text-column h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.cruise-section .text-column p {
+    font-size: 0.95rem;
+    line-height: 1.9;
+    color: #fff;
+}
+
+.cruise-section .image-column {
+}
+
+.cruise-section .main-image {
+    height: 350px;
+}
+
+.image-grid-vertical {
+}
+
+.image-grid-vertical img {
+    height: 350px;
+    margin-bottom: 20px;
+}

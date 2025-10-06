@@ -32,18 +32,19 @@
 body {
     font-family: "ICIELBCOLDSTYLE-REGULAR", sans-serif;
     color: var(--text-color);
-    background-color: var(--background-color);
-    /* font-size: 62.5%; */
-    /* font-size: 22px; */
+    /* background-color: var(--background-color); */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 #content {
-    max-width: 1730px;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: aquamarine; */
 }
 
 /* ............/navbar/............ */
@@ -54,11 +55,21 @@ body {
     display: none;
 }
 
+footer {
+    width: 100%; 
+    background: var(--text-color);
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
-  background: #2a2a2a6d;
-  height: 50px;
+  background: #2a2a2a9f;
+  /* height: 50px; */
   z-index: 12;
 }
 
@@ -74,6 +85,8 @@ body {
     order: 2;
     display: flex;
     margin: 0 auto;
+    /* background: #2a2a2a6d; */
+    /* border-bottom: 0.7px solid var(--background-color); */
 }
 
 .menu-items li {
@@ -87,11 +100,38 @@ body {
     color: #ffffff;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
+    position: relative;
+}
+
+.menu-items a::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: bisque;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease-in;
+}
+
+.menu-items a.active::before {
+    width: 100%;
+}
+
+.menu-items a:hover::before {
+    width: 100%;
+    color: bisque;
 }
 
 .menu-items a:hover {
-    color: #117964;
+    font-weight: 700;
+    color: bisque;
     transition: color 0.3s ease-in-out;
+}
+
+.menu-items a.active {
+    color: bisque;
+    font-weight: 700;
 }
 
 .logo {
@@ -124,7 +164,7 @@ body {
         height: 32px;
         width: 38px;
         top: 12px;
-        right: 7px;
+        right: 11px;
         /* Đổi từ left sang right */
         z-index: 5;
         opacity: 0;
@@ -136,7 +176,7 @@ body {
         width: 35px;
         position: absolute;
         top: 17px;
-        right: 8px;
+        right: 10px;
         z-index: 2;
         display: flex;
         flex-direction: column;
