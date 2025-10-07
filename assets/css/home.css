@@ -22,7 +22,7 @@
 
 /* <=========== hero section ============> */
 .home-contaier .hero {
-    background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/DN/DN_00071.jpg');
+    background-image: linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)), url('../images/DN/DN_00071.JPG');
     background-size: cover;
     background-position: 50% 30%;
     background-repeat: no-repeat;
