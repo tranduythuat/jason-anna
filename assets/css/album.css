@@ -4,7 +4,7 @@
 
 /* ================hero============== */
 .album .hero {
-    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/photos/DN_00170.JPG');
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/photos/DN_00170.jpg');
     background-size: cover;
     background-position: 50% 30%;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 
 /* ============== Featured Photo Section ==================== */
 .album .featured-photo {
-    background-image:linear-gradient(rgba(57, 57, 57, 0.739), rgba(24, 24, 24, 0.739)), url('../images/photos/DN_00463.JPG');
+    background-image:linear-gradient(rgba(57, 57, 57, 0.739), rgba(24, 24, 24, 0.739)), url('../images/photos/DN_00463.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@
 }
 
 .final-hero .final-hero-content {
-    background-image:linear-gradient(rgba(68, 68, 68, 0.188), rgba(70, 70, 70, 0.356)) ,url('../images/photos/DN_00071.JPG');
+    background-image:linear-gradient(rgba(68, 68, 68, 0.188), rgba(70, 70, 70, 0.356)) ,url('../images/photos/DN_00071.jpg');
     background-size: cover;
     background-position: 50% 60%;
     background-repeat: no-repeat;
