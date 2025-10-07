@@ -351,7 +351,7 @@
 
 /* <=================== agenda section ===================> */
 .agenda {
-    background-image: linear-gradient(rgba(46, 41, 35, 0.678), rgba(52, 33, 12, 0.324)), url('../images/home/DN_00750.JPG');
+    background-image: linear-gradient(rgba(46, 41, 35, 0.678), rgba(52, 33, 12, 0.324)), url('https://res.cloudinary.com/storehue/image/upload/v1759813023/wedding/jason-anna/hone-page/DN_00750_ehrt5g.webp');
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;
