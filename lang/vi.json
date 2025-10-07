@@ -8,6 +8,9 @@
     },
     "pages": {
       "home": {
+        "timeline": {
+          
+        },
         "title": "Chào mừng",
         "content": "Đây là trang chủ thiệp cưới."
       },
@@ -24,6 +27,16 @@
         "content": "Thông tin cho khách mời từ xa."
       }
     },
-    "footerText": "© 2025 Thiệp Cưới"
+    "footerText": "© 2025 Thiệp Cưới",
+    "alert": {
+      "proccesingText": "Đang xử lí...",
+      "proccesingTitle": "Vui lòng chờ trong giây lát.",
+      "successTitle": "Cảm ơn bạn!",
+      "successText": "Lời chúc của bạn đã được gửi thành công.",
+      "errorTitle": "Rất tiếc!",
+      "errorText": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
+      "close": "Đóng",
+      "retry": "Thử lại"
+    }
   }
   

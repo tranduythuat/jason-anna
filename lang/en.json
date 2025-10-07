@@ -1,4 +1,12 @@
 {
-    
+  "alert": {
+    "proccesingText": "Sending...",
+    "proccesingTitle": "Please wait a moment",
+    "successTitle": "Complete",
+    "successText": "Thank you for your feedback, the information has been sent to the bride and groom!!.",
+    "errorTitle": "Oops!",
+    "errorText": "Something went wrong. Please try again.",
+    "close": "Close",
+    "retry": "Retry"
+  }
 }
-  

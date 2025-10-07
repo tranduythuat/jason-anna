@@ -55,6 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
         refreshAOS();
     }
 
+    window.__ = function (key) {
+        const value = getValueByPath(translations, key);
+        return value !== undefined && value !== null ? value : key;
+    };
+
     // --- PARTIALS (header + footer) ---
     async function loadPartials() {
         try {
@@ -134,6 +139,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     bottomMenu.classList.remove("active");
                 }
             }
+
+            if (currentPage === "rsvp") {
+                import("./forms/rsvp.js").then((m) => m.default());
+            }
+
             // scroll top
             window.scrollTo({ top: 0, behavior: "smooth" });
         } catch (err) {

@@ -1,70 +1,83 @@
 export default function handleContactForm() {
-    const form = document.forms["rsvpForm"];
-    if (form) {
-        form.addEventListener("submit", async (e) => {
-            e.preventDefault();
+    const form = document.forms["rsvp-form"];
+    if (!form) return;
 
-            const form = e.target;
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData.entries());
-            console.log("🚀 ~ handleFormSubmit ~ data:", data);
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get("lang") || "en";
 
-            const {
-                name: name,
-                attendance: confirm,
-                message: message,
-            } = data;
-            console.log("🚀 ~ handleFormSubmit 2~ data:", data);
+    const SHEET_ENDPOINTS = {
+        vi: "https://script.google.com/macros/s/AKfycbxJ-habe4e_RCn0E3AtsfYoVK6cMIAckh8fdqq9d0VHrbsMowt0jPeHDDEoe__Qa2SO/exec?sheet=vi",
+        en: "https://script.google.com/macros/s/AKfycbxJ-habe4e_RCn0E3AtsfYoVK6cMIAckh8fdqq9d0VHrbsMowt0jPeHDDEoe__Qa2SO/exec?sheet=en",
+    };
 
-            // Thông báo khi bắt đầu gửi
-            Swal.fire({
-                title: "Đang gửi /Sending/...",
-                text: "Vui lòng chờ trong giây lát /Please wait a moment/",
-                icon: "info",
-                allowOutsideClick: false,
-                didOpen: () => {
-                    Swal.showLoading();
-                },
+    const sheetURL = SHEET_ENDPOINTS[lang] || SHEET_ENDPOINTS.en;
+
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData.entries());
+        console.log("🚀 ~ handleFormSubmit ~ data:", data);
+
+        const {
+            name: name,
+            attendance: attendance,
+            arrival_date: arrival_date,
+            guests_number: guests_number,
+            restrictions: restrictions,
+            assistance: assistance,
+        } = data;
+        console.log("🚀 ~ handleFormSubmit 2~ data:", data);
+
+        // Thông báo khi bắt đầu gửi
+        Swal.fire({
+            title: __("alert.proccesingText"),
+            text: __("alert.proccesingTitle"),
+            icon: "info",
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            },
+        });
+
+        try {
+            const res = await fetch(sheetURL, {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({
+                    name,
+                    attendance,
+                    arrival_date,
+                    guests_number,
+                    restrictions,
+                    assistance,
+                }),
             });
 
-            const url = "";
+            const result = await res.json().catch(() => ({}));
+            console.log("Server response:", result);
 
-            try {
-                const res = await fetch(url, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                    body: new URLSearchParams({
-                        name,
-                        confirm,
-                        message,
-                    }),
-                });
+            form.reset();
 
-                const result = await res.json().catch(() => ({}));
-                console.log("Server response:", result);
+            // Thông báo thành công
+            Swal.fire({
+                title: __("alert.successTitle"),
+                text: __("alert.successText"),
+                icon: "success",
+                confirmButtonText: __("alert.close"),
+                confirmButtonColor: "#3f4122ff",
+            });
+        } catch (error) {
+            console.error("Error:", error);
 
-                form.reset();
-
-                // Thông báo thành công
-                Swal.fire({
-                    title: "Thành công /Success/!",
-                    text: "Cảm ơn bạn đã gửi phản hồi, thông tin đã được gửi đến dâu rể rồi nha /Thank you for your feedback, the information has been sent to the bride and groom./",
-                    icon: "success",
-                    confirmButtonText: "OK",
-                    confirmButtonColor: "#3f4122ff",
-                });
-            } catch (error) {
-                console.error("Error:", error);
-
-                // Thông báo lỗi
-                Swal.fire({
-                    title: "Lỗi!",
-                    text: "OPPS! Đã xảy ra lỗi: " + error.message,
-                    icon: "error",
-                    confirmButtonText: "Thử lại",
-                    confirmButtonColor: "#3f4122ff",
-                });
-            }
-        });
-    }
+            // Thông báo lỗi
+            Swal.fire({
+                title: __("alert.errorTitle"),
+                text: __("alert.errorText"),
+                icon: "error",
+                confirmButtonText: __("alert.retry"),
+                confirmButtonColor: "#3f4122ff",
+            });
+        }
+    });
 }

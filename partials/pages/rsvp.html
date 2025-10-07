@@ -31,7 +31,7 @@
     <section class="rsvp-section">
         <h2 class="form-title" data-aos="fade-down">Will you be attending the wedding?</h2>
 
-        <form class="rsvp-form">
+        <form action="#" class="rsvp-form" id="rsvp-form">
             <!-- Attendance Options -->
             <div class="attendance-options" data-aos="fade-up">
                 <label class="option-label">
@@ -50,17 +50,17 @@
 
             <!-- Form Fields -->
             <div class="form-fields" data-aos="fade-right">
-                <input type="text" class="form-input" placeholder="Name" required>
+                <input type="text" class="form-input" name="name" placeholder="Name" required>
 
-                <input type="text" class="form-input"
+                <input type="text" class="form-input" name="arrival_date"
                     placeholder="Have you booked your flight yet? If yes, please share your arrival date.">
 
-                <input type="text" class="form-input" placeholder="How many guests will be attending with you?">
+                <input type="text" class="form-input" name="guests_number" placeholder="How many guests will be attending with you?">
 
-                <input type="text" class="form-input"
+                <input type="text" class="form-input" name="restrictions"
                     placeholder="Do you have any dietary preferences or restrictions?">
 
-                <input type="text" class="form-input"
+                <input type="text" class="form-input" name="assistance"
                     placeholder="Do you require any assistance with accommodation or transportation?">
             </div>
 
@@ -68,8 +68,4 @@
             <button type="submit" class="submit-btn" data-aos="fade-left">SEND</button>
         </form>
     </section>
-    <script type="module">
-        import handleSubmitRsvpForm from "../../assets/js/forms/rsvp.js";
-        handleSubmitRsvpForm();
-    </script>
 </div>
