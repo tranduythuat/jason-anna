@@ -1,5 +1,5 @@
 .venue .hero {
-    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/venue/DN_00071.JPG');
+    background-image:linear-gradient(rgba(68, 68, 68, 0.535), rgba(70, 70, 70, 0.593)) ,url('../images/venue/DN_00071.jpg');
     background-size: cover;
     background-position: 50% 100%;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@
 
 /* Section 3: Venus Cruises */
 .cruise-section {
-    background-image: url('../images/venue/end-bg.png');
+    background-image: url('../images/venue/end-bg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
