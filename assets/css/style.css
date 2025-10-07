@@ -283,6 +283,11 @@ footer {
         font-size: 65%;
     }
 
+    .bottom-menu {
+        display: none;
+        height: 0;
+    }
+
     .navbar .menu-items li {
         font-size: 1.6rem;
     }

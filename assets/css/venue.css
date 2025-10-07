@@ -56,7 +56,8 @@
 }
 
 .description-left p {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
     line-height: 1.8;
     margin-bottom: 15px;
     text-align: justify;
@@ -70,15 +71,15 @@
 .title-right h2 {
     font-size: 3rem;
     font-weight: normal;
+    font-family: "ICIELBCOLDSTYLE-REGULAR", sans-serif;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    font-family: 'Garamond', serif;
 }
 
 .title-right .subtitle {
     font-size: 1rem;
+    line-height: 1.8;
     letter-spacing: 1px;
-    opacity: 0.9;
 }
 
 /* Section 2: Ninh Binh Legend Hotel */
