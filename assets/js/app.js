@@ -51,8 +51,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
+        applyLanguageVisibility();
+
         // content/size có thể thay đổi -> cần refresh AOS
         refreshAOS();
+    }
+
+    function applyLanguageVisibility() {
+        document.querySelectorAll("[data-show-lang]").forEach(el => {
+            const showLang = el.getAttribute("data-show-lang");
+            el.style.display = (showLang === currentLang) ? "" : "none";
+        });
+
+        document.querySelectorAll("[data-hide-lang]").forEach(el => {
+            const hideLang = el.getAttribute("data-hide-lang");
+            el.style.display = (hideLang === currentLang) ? "none" : "";
+        });
     }
 
     window.__ = function (key) {

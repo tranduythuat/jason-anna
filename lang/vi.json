@@ -1,20 +1,79 @@
 {
     "siteTitle": "Thiệp Cưới",
     "menu": {
-      "home": "Trang chủ",
-      "ourStory": "Chuyện tình",
-      "faq": "Câu hỏi",
-      "travel": "Hướng dẫn đi lại"
     },
     "pages": {
       "home": {
-        "timeline": {
-          
-        },
         "title": "Chào mừng",
-        "content": "Đây là trang chủ thiệp cưới."
+        "content": "Đây là trang chủ thiệp cưới.",
+        "timeline": {
+          "h2": "TIMELINE ĐÁM CƯỚI",
+          "event_1": {
+            "h5": "Tiệc Chào Đón",
+            "h4_1": "Thứ sáu, 14/11/2025"
+          },
+          "event_2": {
+            "h5": "Sau bữa thối",
+            "h4": "Đồ ăn nhẹ & thức uống",
+            "a": "Địa điểm: Na's house cafe"
+          }
+        },
+        "ceremony": {
+          "h2": "Lễ ăn hỏi",
+          "h3": "Thứ Bảy, 15/11/2025",
+          "time": "07:00 – 09:30",
+          "dresscode_lable": "Trang phục:",
+          "dresscode_desc": "Thanh lịch"
+        },
+        "traditional": {
+          "h2": "Tiệc Cưới Truyền Thống",
+          "event_h3": "Thứ Bảy, 15/11/2025",
+          "event_time": "10:30 – 13:00",
+          "location": "Khách sạn Ninh Bình Legend",
+          "p2": "Welcome Party & Lễ Ăn Hỏi là những buổi lễ nhẹ nhàng. Chúng tôi rất hân hạnh được đón tiếp Quý khách đến với hoạt động này. Bạn cũng đừng lo lắng, nếu vì lý do riêng mà Quý khách không thể tham dự. Chúng mình vẫn rất trân trọng và nhận lời chúc phúc của mọi người."
+        },
+        "cruise": {
+          "h2": "Tiệc Cưới Trên Du Thuyền",
+          "p1": "Bữa tiệc chiêu đãi này được tổ chức theo phong cách phương Tây trên du thuyền. Đây là khoảnh khắc để lắng nghe lời thề nguyện của chúng mình, tâm sự & chia sẻ từ gia đình, bạn bè.Chúng ta cùng nhau thưởng thức bữa tối và hòa mình vào không khí lễ hội giữa biển trời lãng mạn.",
+          "details": {
+            "h3": "Thời gian & Địa điểm",
+            "time_p1": "Chủ Nhật, 16/11/2025",
+            "time_p2": "Thứ Hai, 17/11/2025"
+          },
+          "dresscode": {
+            "h3": "Trang phục",
+            "h4": "Bảng màu chủ đạo của lễ cưới là những sắc thái nhẹ nhàng và thanh lịch.",
+            "p1": "Phụ nữ Trân trọng mời chọn trang phục trong gam màu pastel và trung tính: xanh nhạt, kem, ngà, vàng nhạt, vàng pastel, nâu nhạt.",
+            "p2": "Đàn ông: Khuyến khích mặc tuxedo hoặc suit cùng sơ mi trắng hoặc mặc đồ theo tone màu trên"
+          }
+        },
+        "agenda": {
+            "h2": "Lịch trình",
+            "h3": "TIỆC CƯỚI – 16/11/2025",
+            "p1": "07:00: Xe đưa đón khách từ Ninh Bình đến cảng Tuần Châu",
+            "p2": "11:00: Làm thủ tục check-in, tender đưa khách lên du thuyền sang trọng Venus Cruise",
+            "p3": "13:00: Hành trình khởi đầu, ngắm nhìn những tuyệt tác thiên nhiên của vịnh Lan Hạ",
+            "p4": "15:30: Đón khách tại Sundeck trong khung cảnh hoàng hôn",
+            "p5": "16:30: Lễ vows thân mật và thiêng liêng",
+            "p6": "17:15: Giờ cocktail & chụp ảnh kỷ niệm",
+            "p7": "18:30: Tiệc tối đón khách",
+            "p8": "20:30: After Party rực rỡ trên Sundeck",
+            "p9": "21:00: Điệu nhảy đầu tiên",
+            "p10": "21:30: Tung hoa cưới",
+            "p11": "22:00: Thư giãn & giao lưu",
+            "h3_2": "NGÀY SAU TIỆC CƯỚI – 17/11/2025",
+            "p1_2": "(Khách có thể tự do tham gia các hoạt động theo sở thích)",
+            "p2_2": "06:00: Tập Thái Cực Quyền trên Sundeck & bữa sáng nhẹ",
+            "p3_2": "06:15 – 07:30: Hành trình thuyền tre tham quan hang Tối – hang Sáng, bơi hoặc chèo kayak giữa làn nước trong xanh",
+            "p4_2": "09:00 – 10:30: Trở lại tàu lớn, thưởng thức bữa trưa nhẹ, làm thủ tục trả phòng – tạm biệt Venus Cruise",
+            "p5_2": "10:30 – 11:10: Chia tay đoàn và trở về cảng Tuần Châu",
+            "p6_2": "12:00: Khép lại hành trình – lưu giữ trọn vẹn những kỷ niệm"
+          }
       },
       "ourStory": {
+        "hero": {
+
+        },
         "title": "Chuyện tình",
         "content": "Câu chuyện tình yêu và hành trình của chúng tôi."
       },
@@ -25,6 +84,11 @@
       "travel": {
         "title": "Hướng dẫn đi lại",
         "content": "Thông tin cho khách mời từ xa."
+      },
+      "venue": {
+        "cafe": {
+          "h2": ""
+        }
       }
     },
     "footerText": "© 2025 Thiệp Cưới",
