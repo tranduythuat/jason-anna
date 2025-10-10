@@ -114,11 +114,11 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
-        document.querySelectorAll("footer a[data-page]").forEach(link => {
-            link.addEventListener("click", e => {
+        document.querySelectorAll(".bottom-menu a[data-page]").forEach(footerLink => {
+            footerLink.addEventListener("click", e => {
                 e.preventDefault();
-                const page = link.dataset.page;
-                loadPage(page);
+                const pageByFooter = footerLink.dataset.page;
+                loadPage(pageByFooter);
             });
         });
 
