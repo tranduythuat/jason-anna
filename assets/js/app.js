@@ -114,6 +114,14 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
+        document.querySelectorAll("footer a[data-page]").forEach(link => {
+            link.addEventListener("click", e => {
+                e.preventDefault();
+                const page = link.dataset.page;
+                loadPage(page);
+            });
+        });
+
         // lang switch
         document.querySelectorAll(".lang-switch button[data-lang]").forEach(btn => {
             btn.addEventListener("click", () => {
