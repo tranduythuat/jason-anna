@@ -67,6 +67,7 @@ export default function handleContactForm() {
                 confirmButtonText: __("alert.close"),
                 confirmButtonColor: "#3f4122ff",
             });
+            return;
         } catch (error) {
             console.error("Error:", error);
 
