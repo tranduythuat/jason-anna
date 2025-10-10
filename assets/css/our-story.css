@@ -89,7 +89,7 @@
 .story-2 {
     display: flex;
     min-height: 620px;
-    margin-top: -200px;
+    margin-top: -118px;
 }
 
 .story-2 .story-content {
@@ -418,10 +418,12 @@
 
 .story-9 .story-content {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
     margin: 5px;
+    width: 70%;
+    padding-left: 50px;
 }
 
 .story-9 .story-image {
@@ -431,11 +433,6 @@
 
 .story-9 .story-image img {
     width: 100%;
-}
-
-.story-9 .story-content {
-    width: 70%;
-    padding-left: 50px;
 }
 
 /* ========= story-10 =========== */
@@ -627,11 +624,13 @@
     width: 65%;
     padding-left: 50px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
 
 .story-16 .story-content h2 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .story-16 .story-content p {
