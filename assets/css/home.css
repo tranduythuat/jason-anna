@@ -81,9 +81,11 @@
 .wedding-timeline .timeline-content h4 {
     font-size: 1.5rem;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .wedding-timeline .timeline-content h5 {
+    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 300;
     margin-bottom: 10px;
@@ -218,6 +220,7 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    justify-content: center;
 }
 
 .traditional-wedding .wedding-images .img-box {
@@ -241,6 +244,10 @@
 .traditional-wedding .wedding-content p {
     font-size: 1.625rem;
     margin-bottom: 30px;
+}
+
+.traditional-wedding .wedding-content p.vi {
+    margin-top: 30px;
 }
 
 .traditional-wedding .wedding-content h3 {
@@ -281,6 +288,7 @@
 
 .cruise-reception p {
     font-size: var(--font-size-p);
+    text-align: center;
 }
 
 .cruise-reception .cruise-details {
@@ -349,6 +357,41 @@
     margin: 5px;
 }
 
+.cruise-reception .main-action {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+.cruise-reception .main-action .divier-icon:first-child {
+    margin: 0 auto 60px;
+}
+
+.cruise-reception .main-action .divier-icon:last-child {
+    margin: 60px auto 0;
+}
+.cruise-reception .main-action .subtext {
+    margin-bottom: 100px;
+}
+
+.cruise-reception .main-action .images{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.cruise-reception .main-action .images .img-box {
+    flex: 1;
+    padding: 10px;
+}
+
+.cruise-reception .main-action .images .img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
 /* <=================== agenda section ===================> */
 .agenda {
     background-image: linear-gradient(rgba(46, 41, 35, 0.678), rgba(52, 33, 12, 0.324)), url('https://res.cloudinary.com/storehue/image/upload/v1759813023/wedding/jason-anna/hone-page/DN_00750_ehrt5g.webp');
@@ -367,10 +410,12 @@
 .agenda h2 {
     font-size: var(--font-size-h2);
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .agenda h3 {
     font-size: var(--font-size-h3);
+    padding-bottom: 15px;
 }
 
 .agenda p {
@@ -577,11 +622,41 @@
         width: 35px;
         height: 35px;
     }
+
+    .cruise-reception .main-action {
+        margin-top: 30px;
+    }
+
+    .cruise-reception .main-action .subtext {
+        margin-bottom: 30px;
+    }
+    .cruise-reception .main-action .images {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+    .cruise-reception .main-action .images .img-box {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0;
+       flex: 0 0 calc(50% - 5px);
+    }
+
+    .cruise-reception .main-action .images .img-box img {
+        width: 100%;
+        height: 152px;
+    }
+
+    .cruise-reception .main-action .divier-icon:last-child {
+        margin-bottom: 50px;
+    }
+
     /* agenda */
     .agenda {
         margin-top: 50px;
         padding: 0 54px;
-        height: 870px;
+        height: 968px;
         background-position: 50% 50%;
     }
 

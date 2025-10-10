@@ -1,22 +1,172 @@
 {
     "siteTitle": "Thiệp Cưới",
     "menu": {
-      "home": "Trang chủ",
-      "ourStory": "Chuyện tình",
-      "faq": "Câu hỏi",
-      "travel": "Hướng dẫn đi lại"
     },
     "pages": {
       "home": {
-        "timeline": {
-          
-        },
         "title": "Chào mừng",
-        "content": "Đây là trang chủ thiệp cưới."
+        "content": "Đây là trang chủ thiệp cưới.",
+        "timeline": {
+          "h2": "TIMELINE ĐÁM CƯỚI",
+          "event_1": {
+            "h5": "Tiệc Chào Đón",
+            "h4_1": "Thứ sáu, 14/11/2025"
+          },
+          "event_2": {
+            "h5": "Sau bữa tối",
+            "h4": "Đồ ăn nhẹ & thức uống",
+            "a": "Địa điểm: Na's house cafe"
+          }
+        },
+        "ceremony": {
+          "h2": "Lễ ăn hỏi",
+          "h3": "Thứ Bảy, 15/11/2025",
+          "time": "07:00 – 09:30",
+          "dresscode_lable": "Trang phục:",
+          "dresscode_desc": "Thanh lịch"
+        },
+        "traditional": {
+          "h2": "Tiệc Cưới Truyền Thống",
+          "event_h3": "Thứ Bảy, 15/11/2025",
+          "event_time": "10:30 – 13:00",
+          "location": "Khách sạn Ninh Bình Legend",
+          "p2": "Welcome Party & Lễ Ăn Hỏi là những buổi lễ nhẹ nhàng. Chúng tôi rất hân hạnh được đón tiếp Quý khách đến với hoạt động này. Bạn cũng đừng lo lắng, nếu vì lý do riêng mà Quý khách không thể tham dự. Chúng mình vẫn rất trân trọng và nhận lời chúc phúc của mọi người."
+        },
+        "cruise": {
+          "h2": "Tiệc Cưới Trên Du Thuyền",
+          "p1": "Bữa tiệc chiêu đãi này được tổ chức theo phong cách phương Tây trên du thuyền. Đây là khoảnh khắc để lắng nghe lời thề nguyện của chúng mình, tâm sự & chia sẻ từ gia đình, bạn bè. Chúng ta cùng nhau thưởng thức bữa tối và hòa mình vào không khí lễ hội giữa biển trời lãng mạn.",
+          "details": {
+            "h3": "Thời gian & Địa điểm",
+            "time_p1": "Chủ Nhật, 16/11/2025",
+            "time_p2": "Thứ Hai, 17/11/2025"
+          },
+          "dresscode": {
+            "h3": "Trang phục",
+            "h4": "Bảng màu chủ đạo của lễ cưới là những sắc thái nhẹ nhàng và thanh lịch.",
+            "p1": "Phụ nữ Trân trọng mời chọn trang phục trong gam màu pastel và trung tính: xanh nhạt, kem, ngà, vàng nhạt, vàng pastel, nâu nhạt.",
+            "p2": "Đàn ông: Khuyến khích mặc tuxedo hoặc suit cùng sơ mi trắng hoặc mặc đồ theo tone màu trên"
+          }
+        },
+        "agenda": {
+            "h2": "Lịch trình",
+            "h3": "TIỆC CƯỚI – 16/11/2025",
+            "p1": "07:00: Xe đưa đón khách từ Ninh Bình đến cảng Tuần Châu",
+            "p2": "11:00: Làm thủ tục check-in, tender đưa khách lên du thuyền sang trọng Venus Cruise",
+            "p3": "13:00 Ăn trưa buffer trên thuyền",
+            "p4": "15:30: Đón khách tại Sundeck trong khung cảnh hoàng hôn",
+            "p5": "16:30: Lễ vows thân mật và thiêng liêng",
+            "p6": "17:15: Giờ cocktail & chụp ảnh kỷ niệm",
+            "p7": "18:30: Tiệc tối đón khách",
+            "p8": "20:30: After Party rực rỡ trên Sundeck",
+            "p9": "21:00: Điệu nhảy đầu tiên",
+            "p10": "21:30: Tung hoa cưới",
+            "p11": "22:00: Thư giãn & giao lưu",
+            "h3_2": "NGÀY SAU TIỆC CƯỚI – 17/11/2025",
+            "p1_2": "(Khách có thể tự do tham gia các hoạt động theo sở thích)",
+            "p2_2": "06:00: Tập Thái Cực Quyền trên Sundeck & bữa sáng nhẹ",
+            "p3_2": "06:15 – 07:30: Hành trình thuyền tre tham quan hang Tối – hang Sáng, bơi hoặc chèo kayak giữa làn nước trong xanh",
+            "p4_2": "09:00 – 10:30: Trở lại tàu lớn, thưởng thức bữa trưa nhẹ, làm thủ tục trả phòng – tạm biệt Venus Cruise",
+            "p5_2": "10:30 – 11:10: Chia tay đoàn và trở về cảng Tuần Châu",
+            "p6_2": "12:00: Khép lại hành trình – lưu giữ trọn vẹn những kỷ niệm"
+          }
       },
       "ourStory": {
         "title": "Chuyện tình",
-        "content": "Câu chuyện tình yêu và hành trình của chúng tôi."
+        "content": "Câu chuyện tình yêu và hành trình của chúng tôi.",
+        "story_1": {
+          "p1": "Năm 2022, Jason và người bạn - CS ghé đến khách sạn Raffles nổi tiếng ở Singapore, chỉ đơn giản để thử một loại cocktail “đặc sản” của đảo quốc này.",
+          "p2": "Thế nhưng, một sự nhầm lẫn nhỏ đã dẫn chúng tôi đến đúng nơi định mệnh. Jason và CS bước nhầm vào nhà hàng nơi Anna đang làm việc. Và chính tại khoảnh khắc ấy, câu chuyện tình yêu của chúng tôi đã bắt đầu.",
+          "p3": "Bữa tối hôm ấy vốn dĩ không nằm trong kế hoạch, nhưng vì nơi họ muốn đến lại quá đông, Jason và CS đã ngồi lại. nhờ sự giúp sức của CS cùng một chút may mắn, Jason đã xin được số điện thoại của Anna.",
+          "p4": "Chỉ vài ngày trước đó Anna đã nộp đơn nghỉ việc, chuẩn bị rời Singapore. Nhưng định mệnh đã sắp đặt để chúng mình gặp nhau."
+        },
+        "story_2": {
+          "p1": "Không lâu sau, Jason có chuyến công tác ở Hà Nội, còn Anna cũng trở về Việt Nam để chuẩn bị mở quán cà phê. Và thế là bức ảnh đầu tiên của chúng tôi được chụp tại Hà Nội – năm 2022, khởi đầu cho hành trình tình yêu dài thật dài."
+        },
+        "story_3": {
+          "h2": "THÁNG 7/2024: NEW YORK",
+          "p": "Tấm hình đầu tiên của chúng tôi ở Mỹ, cũng là lần đầu tiên Anna đặt chân đến thành phố không bao giờ ngủ."
+        },
+        "story_4": {
+          "h2": "THÁNG 8/2024: SINGAPORE",
+          "p": "Chúng tôi trở về nơi khởi nguồn tình yêu, với những cảm xúc vẹn nguyên như buổi ban đầu."
+        },
+        "story_5": {
+          "h2": "THÁNG 8/2024 - HẠ LONG – NINH BÌNH"
+        },
+        "story_6": {
+          "span1": "THÁNG 9/2024",
+          "span2": "HÀ NỘI – NINH BÌNH",
+          "span3": "PENANG – SINGAPORE"
+        },
+        "story_7": {
+          "h2": "THÁNG 10/2024: ĐÀI LOAN",
+          "p": "Chuyến bay dài đầu tiên cùng nhau sang Mỹ – đánh dấu bước ngoặt trong hành trình đôi lứa."
+        },
+        "story_8": {
+          "h2": "CUỐI THÁNG 10: HALLOWEEN Ở NEW YORK"
+        },
+        "story_9": {
+          "h2": "THÁNG 11/2024: DALLAS",
+          "p": "Một buổi tối đậm chất Mexico, ấm áp và nhiều tiếng cười."
+        },
+        "story_10": {
+          "h2": "ANNA LẦN ĐẦU ĐẾN SAVANNAH, MANG THEO BAO ĐIỀU MỚI MẺ."
+        },
+        "story_11": {
+          "h2": "DECEMBER 2024 SINGAPORE"
+        },
+        "story_12": {
+          "h2": "THÁNG 12/2024 – SINGAPORE",
+          "p": "Giáng Sinh tại Chattanooga – quê hương tuổi thơ của Jason. Năm ấy thật đặc biệt vì Anna đã được đón lễ cùng gia đình Ray."
+        },
+        "story_13": {
+          "h2": "THÁNG 2/2025: ĐÀ NẴNG - HỘI AN"
+        },
+        "story_14": {
+          "h2": "THÁNG 3/2025: SAVANNAH",
+          "p": "Anna bất ngờ nhận được món quà là một chuyến đi do Jason bí mật chuẩn bị."
+        },
+        "story_16": {
+          "h2_1": "THÁNG 3/2025:",
+          "h2_2": "JASON CẦU HÔN ANNA TẠI CENTRAL PARK NYC"
+        },
+        "story_17": {
+          "h2": "TTHÁNG 5/2025: BORACAY"
+        },
+        "story_18": {
+          "h2": "THÁNG 6/2025",
+          "p": "Khoảnh khắc Jason lần đầu tiên dự một đám cưới Việt Nam - Em trai của Anna – cũng là lúc hai nền văn hóa xích lại gần nhau hơn."
+        },
+        "story_19": {
+          "h2": "THÁNG 7/2025 KHÁM PHÁ BALI"
+        },
+        "story_20": {
+          "h2": "THÁNG 7/2025",
+          "p": "Jason đến đón Anna từ tiệc Bride’s Shower. Ở Việt Nam vốn không có truyền thống này, nhưng mẹ Jason đã chuẩn bị thật chu đáo tại Chattanoo-ga – một kỷ niệm thật đáng nhớ."
+        },
+        "story_21": {
+          "h2": "JASON’S BIRTHDAY",
+          "p": "Sinh nhật Jason năm ấy cũng đặc biệt hơn bao giờ hết, vì Anna lần đầu tự tay làm bánh."
+        },
+        "story_22": {
+          "h2": "THÁNG 9 – HÀ NỘI",
+          "p": "Kỷ niệm tròn một năm bên nhau – một chặng đường ngắn nhưng chan chứa yêu thương, và còn rất nhiều kỷ niệm đang chờ phía trước."
+        }
+      },
+      "rsvp": {
+        "header_p1": "CÙNG VỚI GIA ĐÌNH HAI BÊN",
+        "header_p2": "Chúng mình trân trọng mời bạn đến chung vui lễ thành hôn của chúng mình vào ngày 15 & 16 tháng 11 năm 2025.",
+        "header_p3": "Để đón tiếp bạn thật chu đáo trong lễ cưới của tụi mình, bạn hãy vui lòng xác nhận tham gia (RSVP) trước ngày 01 tháng 11 năm 2025 nhé! Và hãy giúp mình trả lời một số câu hỏi nho nhỏ sau đây:",
+        "form_h2": "Bạn có thể tham gia vào tiệc cưới của tụi mình không nè?",
+        "form_input_yes": "CÓ",
+        "form_input_no": "KHÔNG",
+        "form_input_yet_sure": "CHƯA CHẮC",
+        "form_input_name": "Tên Khách mời",
+        "form_input_arrival_date": "",
+        "form_input_guests_number": "Sẽ có bao nhiêu người đi cùng bạn? (1/2/ Cả gia đình/ Khác)",
+        "form_input_restrictions": "Bạn có dị ứng hoặc có chế độ ăn đặc biệt nào không? (Ăn chay, dị ứng, không gluten...)",
+        "form_input_assistance": "Bạn có muốn tụi mình hỗ trợ đặt phòng hay sắp xếp xe cộ không?",
+        "form_submit": "GỬI"
       },
       "faq": {
         "title": "Câu hỏi thường gặp",
@@ -25,6 +175,21 @@
       "travel": {
         "title": "Hướng dẫn đi lại",
         "content": "Thông tin cho khách mời từ xa."
+      },
+      "venue": {
+        "cafe": {
+          "p1": "Nằm ở Ninh Bình – vùng đất từng là Kinh đô của Việt Nam trước khi Hà Nội trở thành thủ đô. Ngày nay, Ninh Bình được mệnh danh là “Vịnh Hạ Long trên cạn” nhờ vào khung cảnh kỳ diệu với những dãy núi đá vôi sừng sững vươn lên từ cánh đồng lúa.",
+          "p2": "Anna và mẹ của cô, trong vai trò quản lý thi công, đã trực tiếp giám sát quá trình xây dựng Na’s House Cafe. Quán được hoàn thành chỉ một năm sau khi Anna mở quán cà phê đầu tiên.",
+          "p3": "Không gian quán được trang trí bởi nhiều chiếc đèn lồng rực rỡ và cây xanh tươi mát."
+        },
+        "hotel": {
+          "p1": "Kết hợp giữa nét thanh lịch lấy cảm hứng từ Pháp và sự tiện nghi hiện đại, Ninh Binh Legend mang đến những căn phòng rộng rãi, ấm cúng và tinh tế trong từng chi tiết, khiến mỗi kỳ nghỉ đều trở nên đặc biệt.",
+          "p2": "Từ đây, bạn có thể phóng tầm mắt ra những ngọn núi hùng vĩ của Ninh Bình và quần thể Tràng An được UNESCO công nhận, tận hưởng những góc yên bình, hồ bơi thư giãn, hay quầy bar trên cao với tầm nhìn tuyệt đẹp.",
+          "p3": "Đây không chỉ là một khách sạn — mà còn là nơi giao hòa giữa thiên nhiên, văn hóa và sự tinh tế. Một phông nền hoàn hảo để tôn vinh tình yêu, lưu giữ kỷ niệm và sẻ chia niềm hạnh phúc trong ngày cưới."
+        },
+        "venus": {
+          "p": "Lướt trên làn nước xanh ngọc bích của Vịnh Hạ Long, Venus Cruise mang đến sự kết hợp hài hòa giữa tiện nghi hiện đại và vẻ đẹp vĩnh cửu của di sản thiên nhiên thế giới UNESCO. Với những cabin sang trọng, boong tàu thoáng đãng và khung cảnh vịnh tuyệt mỹ, đây chính là không gian lý tưởng để tôn vinh tình yêu và tạo nên những kỷ niệm khó quên bên nhau."
+        }
       }
     },
     "footerText": "© 2025 Thiệp Cưới",
