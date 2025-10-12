@@ -39,7 +39,14 @@
     font-family: "UVNKECHUYEN1", sans-serif;
     font-size: 8rem;
     font-weight: 300;
-    padding-top: 410px;
+    padding: 410px 0 50px;
+    text-align: center;
+}
+
+.home-contaier .hero p {
+    text-align: center;
+    padding: 5px 30px;
+    letter-spacing: 1px;
 }
 
 .home-contaier .hero .wedding-date {
@@ -456,18 +463,24 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        text-align: center;
     }
 
     .home-contaier .hero h1 {
         font-size: 10vw;
-        padding-top: 100px;
+        padding: 100px 0 10px;
         font-weight: 300;
     }
+
+    .home-contaier .hero p {
+        padding: 5px 35px;
+        letter-spacing: 1px;
+    }
+
     .home-contaier .hero .wedding-date {
         padding-bottom: 20px;
         font-size: 1rem;
+        padding-top: 460px;
     }
     /* wedding-timeline */
     .wedding-timeline {

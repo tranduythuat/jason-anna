@@ -6,6 +6,10 @@
       "home": {
         "title": "Chào mừng",
         "content": "Đây là trang chủ thiệp cưới.",
+        "hero": {
+          "p1": "Anna & Jason rất mong được đón Quý khách đến chung vui và chứng kiến khởi đầu mới trong hành trình của hai chúng tôi.",
+          "p2": "Sự hiện diện của Quý khách sẽ làm ngày vui thêm trọn vẹn và ý nghĩa."
+        },
         "timeline": {
           "h2": "TIMELINE ĐÁM CƯỚI",
           "event_1": {
@@ -43,7 +47,7 @@
           "dresscode": {
             "h3": "Trang phục",
             "h4": "Bảng màu chủ đạo của lễ cưới là những sắc thái nhẹ nhàng và thanh lịch.",
-            "p1": "Phụ nữ Trân trọng mời chọn trang phục trong gam màu pastel và trung tính: xanh nhạt, kem, ngà, vàng nhạt, vàng pastel, nâu nhạt.",
+            "p1": "Phụ nữ Trân trọng mời chọn trang phục trong gam màu pastel và trung tính: kem, ngà, vàng nhạt, vàng pastel, nâu nhạt.",
             "p2": "Đàn ông: Khuyến khích mặc tuxedo hoặc suit cùng sơ mi trắng hoặc mặc đồ theo tone màu trên"
           }
         },
